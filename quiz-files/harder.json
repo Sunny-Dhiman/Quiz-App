@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the Gödel number associated with the first incompleteness theorem proof formula?",
+        "options": ["~φ(17)", "φ(45)", "G(531)", "π(15)"],
+        "answer": "G(531)"
+    },
+    {
+        "question": "Which philosopher is most closely associated with the concept of 'difference and repetition'?",
+        "options": ["Gilles Deleuze", "Martin Heidegger", "Ludwig Wittgenstein", "Jean-Paul Sartre"],
+        "answer": "Gilles Deleuze"
+    },
+    {
+        "question": "Which isotope of hydrogen is radioactive?",
+        "options": ["Protium", "Deuterium", "Tritium", "None"],
+        "answer": "Tritium"
+    },
+    {
+        "question": "Which mathematical object describes a smooth surface with no boundary and a single side?",
+        "options": ["Klein bottle", "Torus", "Möbius strip", "Projective plane"],
+        "answer": "Klein bottle"
+    },
+    {
+        "question": "What year was the Antikythera mechanism, the ancient Greek analog computer, discovered?",
+        "options": ["1872", "1901", "1923", "1956"],
+        "answer": "1901"
+    },
+    {
+        "question": "Who is credited with the discovery of quaternions?",
+        "options": ["Isaac Newton", "Leonhard Euler", "William Rowan Hamilton", "Carl Friedrich Gauss"],
+        "answer": "William Rowan Hamilton"
+    },
+    {
+        "question": "Which RNA base is replaced by thymine in DNA?",
+        "options": ["Uracil", "Adenine", "Cytosine", "Guanine"],
+        "answer": "Uracil"
+    },
+    {
+        "question": "Which medieval manuscript remains undeciphered to this day?",
+        "options": ["Book of Kells", "Codex Gigas", "Voynich Manuscript", "Dead Sea Scrolls"],
+        "answer": "Voynich Manuscript"
+    },
+    {
+        "question": "What is the maximum number of moves required to solve any position of a Rubik’s Cube (God’s Number)?",
+        "options": ["20", "22", "26", "18"],
+        "answer": "20"
+    },
+    {
+        "question": "Which physicist introduced the concept of 'action at a distance' being replaced by local fields?",
+        "options": ["Richard Feynman", "James Clerk Maxwell", "Albert Einstein", "Isaac Newton"],
+        "answer": "James Clerk Maxwell"
+    },
+    {
+        "question": "Which kingdom did the mathematician-astronomer Aryabhata belong to?",
+        "options": ["Chalukya", "Gupta", "Maurya", "Kushan"],
+        "answer": "Gupta"
+    },
+    {
+        "question": "What does the term 'Turing completeness' imply about a system?",
+        "options": ["It is self-replicating", "It can simulate any Turing machine", "It solves all math problems", "It is infinite in memory"],
+        "answer": "It can simulate any Turing machine"
+    },
+    {
+        "question": "In which novel is Laplace’s demon conceptually challenged by quantum mechanics?",
+        "options": ["The Fabric of the Cosmos", "The End of Certainty", "Chaos", "A Brief History of Time"],
+        "answer": "The End of Certainty"
+    },
+    {
+        "question": "Which protein structure level involves alpha helices and beta sheets?",
+        "options": ["Primary", "Secondary", "Tertiary", "Quaternary"],
+        "answer": "Secondary"
+    },
+    {
+        "question": "Which 20th-century logician proved the undecidability of the Entscheidungsproblem?",
+        "options": ["Kurt Gödel", "Alonzo Church", "Alan Turing", "Emil Post"],
+        "answer": "Alan Turing"
+    },
+    {
+        "question": "Which chemical element is named after a planet?",
+        "options": ["Uranium", "Neptunium", "Plutonium", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What is the name of the paradox involving a cat that is both alive and dead?",
+        "options": ["Zeno’s Paradox", "EPR Paradox", "Schrödinger’s Cat", "Maxwell’s Demon"],
+        "answer": "Schrödinger’s Cat"
+    },
+    {
+        "question": "Which algorithm has the best average-case time complexity for comparison-based sorting?",
+        "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Quick Sort"],
+        "answer": "Merge Sort"
+    },
+    {
+        "question": "Which Roman emperor's death marked the end of the Pax Romana?",
+        "options": ["Augustus", "Marcus Aurelius", "Trajan", "Nero"],
+        "answer": "Marcus Aurelius"
+    },
+    {
+        "question": "In information theory, what does Shannon entropy quantify?",
+        "options": ["Noise in a system", "Information uncertainty", "Encryption level", "System speed"],
+        "answer": "Information uncertainty"
+    }
+]

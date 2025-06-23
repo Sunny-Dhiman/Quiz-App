@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the capital city of Canada?",
+        "options": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+        "answer": "Ottawa"
+    },
+    {
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "options": ["Oxygen", "Hydrogen", "Carbon Dioxide", "Nitrogen"],
+        "answer": "Carbon Dioxide"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "Which planet has the most moons?",
+        "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+        "answer": "Saturn"
+    },
+    {
+        "question": "How many bones are in the adult human body?",
+        "options": ["206", "208", "210", "212"],
+        "answer": "206"
+    },
+    {
+        "question": "Which continent is the Sahara Desert located in?",
+        "options": ["Asia", "Africa", "Australia", "South America"],
+        "answer": "Africa"
+    },
+    {
+        "question": "What is the largest internal organ in the human body?",
+        "options": ["Heart", "Liver", "Lung", "Kidney"],
+        "answer": "Liver"
+    },
+    {
+        "question": "Which language has the most native speakers worldwide?",
+        "options": ["English", "Spanish", "Mandarin Chinese", "Hindi"],
+        "answer": "Mandarin Chinese"
+    },
+    {
+        "question": "Who is the author of the Harry Potter book series?",
+        "options": ["J.K. Rowling", "Suzanne Collins", "Stephen King", "Roald Dahl"],
+        "answer": "J.K. Rowling"
+    },
+    {
+        "question": "Which is the longest river in the world?",
+        "options": ["Amazon", "Yangtze", "Nile", "Mississippi"],
+        "answer": "Nile"
+    },
+    {
+        "question": "Which is the smallest prime number?",
+        "options": ["1", "2", "3", "5"],
+        "answer": "2"
+    },
+    {
+        "question": "What is the boiling point of water in Celsius?",
+        "options": ["90°C", "95°C", "100°C", "105°C"],
+        "answer": "100°C"
+    },
+    {
+        "question": "Which is the main ingredient in guacamole?",
+        "options": ["Cucumber", "Zucchini", "Avocado", "Pepper"],
+        "answer": "Avocado"
+    },
+    {
+        "question": "Who discovered gravity after seeing an apple fall from a tree?",
+        "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Thomas Edison"],
+        "answer": "Isaac Newton"
+    },
+    {
+        "question": "Which musical instrument has keys, pedals, and strings?",
+        "options": ["Violin", "Guitar", "Piano", "Trumpet"],
+        "answer": "Piano"
+    },
+    {
+        "question": "Which country gifted the Statue of Liberty to the United States?",
+        "options": ["Germany", "Canada", "France", "Spain"],
+        "answer": "France"
+    },
+    {
+        "question": "Which vitamin is produced when a person is exposed to sunlight?",
+        "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+        "answer": "Vitamin D"
+    },
+    {
+        "question": "What is the smallest ocean in the world?",
+        "options": ["Indian Ocean", "Atlantic Ocean", "Arctic Ocean", "Southern Ocean"],
+        "answer": "Arctic Ocean"
+    },
+    {
+        "question": "What is the square root of 144?",
+        "options": ["10", "11", "12", "14"],
+        "answer": "12"
+    },
+    {
+        "question": "What does DNA stand for?",
+        "options": ["Deoxyribonucleic Acid", "Double Nucleic Acid", "Direct Nuclear Atom", "Dynamic Natural Acid"],
+        "answer": "Deoxyribonucleic Acid"
+    }
+]

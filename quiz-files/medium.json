@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Which element is the most abundant in the Earth's crust?",
+        "options": ["Iron", "Aluminum", "Oxygen", "Silicon"],
+        "answer": "Oxygen"
+    },
+    {
+        "question": "In which year did World War I begin?",
+        "options": ["1912", "1914", "1916", "1918"],
+        "answer": "1914"
+    },
+    {
+        "question": "Which part of the brain controls balance and coordination?",
+        "options": ["Cerebrum", "Cerebellum", "Medulla", "Frontal Lobe"],
+        "answer": "Cerebellum"
+    },
+    {
+        "question": "Which law of thermodynamics states that energy cannot be created or destroyed?",
+        "options": ["First Law", "Second Law", "Third Law", "Zeroth Law"],
+        "answer": "First Law"
+    },
+    {
+        "question": "Which country has the largest population in Africa?",
+        "options": ["Egypt", "South Africa", "Nigeria", "Ethiopia"],
+        "answer": "Nigeria"
+    },
+    {
+        "question": "Which mathematician is considered the 'father of geometry'?",
+        "options": ["Archimedes", "Pythagoras", "Euclid", "Descartes"],
+        "answer": "Euclid"
+    },
+    {
+        "question": "What is the main function of white blood cells?",
+        "options": ["Clot blood", "Carry oxygen", "Fight infection", "Provide energy"],
+        "answer": "Fight infection"
+    },
+    {
+        "question": "Which gas is most commonly used in fluorescent lights?",
+        "options": ["Neon", "Argon", "Krypton", "Xenon"],
+        "answer": "Argon"
+    },
+    {
+        "question": "Which U.S. President abolished slavery?",
+        "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "Andrew Jackson"],
+        "answer": "Abraham Lincoln"
+    },
+    {
+        "question": "In economics, what does GDP stand for?",
+        "options": ["Global Development Plan", "Gross Domestic Product", "General Debt Payment", "Government Development Program"],
+        "answer": "Gross Domestic Product"
+    },
+    {
+        "question": "Which famous scientist developed the three laws of motion?",
+        "options": ["Galileo Galilei", "Isaac Newton", "Johannes Kepler", "Stephen Hawking"],
+        "answer": "Isaac Newton"
+    },
+    {
+        "question": "Which layer of Earth's atmosphere contains the ozone layer?",
+        "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+        "answer": "Stratosphere"
+    },
+    {
+        "question": "Which Indian mathematician is known for the infinite series expansion of π?",
+        "options": ["Srinivasa Ramanujan", "Aryabhata", "Brahmagupta", "Bhaskara I"],
+        "answer": "Srinivasa Ramanujan"
+    },
+    {
+        "question": "In computing, what does 'HTTP' stand for?",
+        "options": ["HyperText Transfer Protocol", "High Text Transfer Process", "HyperTool Type Program", "Host Transfer Text Protocol"],
+        "answer": "HyperText Transfer Protocol"
+    },
+    {
+        "question": "Which two elements are found in water?",
+        "options": ["Oxygen and Nitrogen", "Hydrogen and Oxygen", "Carbon and Oxygen", "Hydrogen and Helium"],
+        "answer": "Hydrogen and Oxygen"
+    },
+    {
+        "question": "What is the term for animals that eat both plants and meat?",
+        "options": ["Herbivores", "Carnivores", "Omnivores", "Insectivores"],
+        "answer": "Omnivores"
+    },
+    {
+        "question": "Which famous landmark was gifted to the USA by France?",
+        "options": ["Eiffel Tower", "Statue of Liberty", "Big Ben", "Leaning Tower of Pisa"],
+        "answer": "Statue of Liberty"
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["Iron", "Quartz", "Diamond", "Granite"],
+        "answer": "Diamond"
+    },
+    {
+        "question": "Which European country uses the krone as currency?",
+        "options": ["Sweden", "Norway", "Denmark", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "question": "Which literary work begins with 'Call me Ishmael'?",
+        "options": ["Moby-Dick", "The Odyssey", "The Old Man and the Sea", "Heart of Darkness"],
+        "answer": "Moby-Dick"
+    }
+]

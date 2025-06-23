@@ -1,1 +1,31 @@
-
+{
+  "title": "Question Array Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "question": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The text of the question"
+      },
+      "options": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 4,
+        "maxItems": 4,
+        "description": "List of 4 options"
+      },
+      "answer": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The correct answer"
+      }
+    },
+    "required": ["question", "options", "answer"],
+    "additionalProperties": false
+  }
+}

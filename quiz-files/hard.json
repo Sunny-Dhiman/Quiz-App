@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Which event is considered the start of World War I?",
+        "options": ["The sinking of the Lusitania", "The assassination of Archduke Franz Ferdinand", "The Treaty of Versailles", "The invasion of Poland"],
+        "answer": "The assassination of Archduke Franz Ferdinand"
+    },
+    {
+        "question": "What is the only known metal that is liquid at room temperature besides mercury?",
+        "options": ["Gallium", "Cesium", "Bromine", "Francium"],
+        "answer": "Gallium"
+    },
+    {
+        "question": "Which ancient civilization built the underground city of Derinkuyu in Turkey?",
+        "options": ["Hittites", "Phrygians", "Lydians", "Byzantines"],
+        "answer": "Phrygians"
+    },
+    {
+        "question": "What is the value of Planck’s constant (h) to four significant figures?",
+        "options": ["6.626 x 10^-34 Js", "3.142 x 10^-27 Js", "1.602 x 10^-19 Js", "9.109 x 10^-31 Js"],
+        "answer": "6.626 x 10^-34 Js"
+    },
+    {
+        "question": "In logic, what is the contrapositive of the statement: 'If it rains, then the ground is wet'?",
+        "options": ["If it doesn't rain, the ground isn't wet", "If the ground is not wet, then it did not rain", "If the ground is wet, then it rained", "If it rains, the ground isn't dry"],
+        "answer": "If the ground is not wet, then it did not rain"
+    },
+    {
+        "question": "What does the term 'non-Euclidean geometry' refer to?",
+        "options": ["Geometry in 4D space", "Geometry that doesn't follow Euclid's fifth postulate", "Geometry using imaginary numbers", "Geometry used in quantum physics"],
+        "answer": "Geometry that doesn't follow Euclid's fifth postulate"
+    },
+    {
+        "question": "Which of the following languages is NOT Indo-European?",
+        "options": ["Finnish", "Hindi", "Greek", "Persian"],
+        "answer": "Finnish"
+    },
+    {
+        "question": "Who was the first scientist to propose the wave-particle duality of electrons?",
+        "options": ["Niels Bohr", "Erwin Schrödinger", "Louis de Broglie", "Werner Heisenberg"],
+        "answer": "Louis de Broglie"
+    },
+    {
+        "question": "Which empire used quipus as a form of record-keeping?",
+        "options": ["Mayan", "Aztec", "Inca", "Olmec"],
+        "answer": "Inca"
+    },
+    {
+        "question": "What does the acronym ‘LASER’ stand for?",
+        "options": ["Light Amplification by Stimulated Emission of Radiation", "Low Amplification by Simulated Energy Radiation", "Linear Amplification System for Emitting Radiation", "Light and Sound Emitting Resource"],
+        "answer": "Light Amplification by Stimulated Emission of Radiation"
+    },
+    {
+        "question": "In cryptography, what is RSA primarily used for?",
+        "options": ["Symmetric encryption", "Hashing passwords", "Key exchange and encryption", "File compression"],
+        "answer": "Key exchange and encryption"
+    },
+    {
+        "question": "Which of these is a paradox in set theory formulated by Bertrand Russell?",
+        "options": ["Zeno's Paradox", "Russell's Paradox", "Banach-Tarski Paradox", "Barber Paradox"],
+        "answer": "Russell's Paradox"
+    },
+    {
+        "question": "Which element has the highest melting point?",
+        "options": ["Tungsten", "Osmium", "Carbon", "Rhenium"],
+        "answer": "Tungsten"
+    },
+    {
+        "question": "Which philosopher is known for the quote: 'I think, therefore I am'?",
+        "options": ["Immanuel Kant", "René Descartes", "Socrates", "Plato"],
+        "answer": "René Descartes"
+    },
+    {
+        "question": "Which country launched the first artificial satellite?",
+        "options": ["USA", "Germany", "Russia (USSR)", "China"],
+        "answer": "Russia (USSR)"
+    },
+    {
+        "question": "How many prime numbers are there less than 100?",
+        "options": ["25", "23", "26", "28"],
+        "answer": "25"
+    },
+    {
+        "question": "In genetics, what does 'epistasis' refer to?",
+        "options": ["Genes that affect only females", "One gene masking the expression of another", "Multiple genes coding for one trait", "Dominant over recessive traits"],
+        "answer": "One gene masking the expression of another"
+    },
+    {
+        "question": "Which famous battle marked the end of Napoleon’s rule in 1815?",
+        "options": ["Battle of Austerlitz", "Battle of Leipzig", "Battle of Trafalgar", "Battle of Waterloo"],
+        "answer": "Battle of Waterloo"
+    },
+    {
+        "question": "Which of the following is NOT a fundamental force of nature?",
+        "options": ["Gravity", "Electromagnetism", "Friction", "Weak nuclear force"],
+        "answer": "Friction"
+    },
+    {
+        "question": "Which logical gate returns true only if its two inputs are different?",
+        "options": ["XOR", "AND", "NOR", "NAND"],
+        "answer": "XOR"
+    },
+    {
+        "question": "Which ancient text is considered the earliest known legal code?",
+        "options": ["Code of Hammurabi", "Twelve Tables", "Magna Carta", "Edicts of Ashoka"],
+        "answer": "Code of Hammurabi"
+    }
+]

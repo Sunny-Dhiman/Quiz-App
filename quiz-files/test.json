@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "London", "Paris", "Madrid"],
+        "answer": "Paris"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answer": "Mars"
+    },
+    {
+        "question": "Who wrote 'Hamlet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Mark Twain", "J.K. Rowling"],
+        "answer": "William Shakespeare"
+    },
+    {
+        "question": "What is the largest ocean?",
+        "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+        "answer": "Pacific"
+    },
+    {
+        "question": "Which language is used for web apps?",
+        "options": ["Python", "PHP", "JavaScript", "All of the above"],
+        "answer": "All of the above"
+    }
+]
