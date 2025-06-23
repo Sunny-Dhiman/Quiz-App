@@ -1,8 +1,6 @@
-let inputFile = sessionStorage.getItem("inputFile");
-// console.log(inputFile);
-
+// Global declaration for file
+let inputFile;
 // schema for validation
-
 const schema = {
   title: "Question Array Schema",
   type: "array",
@@ -38,38 +36,25 @@ const schema = {
 const ajv = new Ajv();
 const validate = ajv.compile(schema);
 
-// On-Reload Tasks
-window.onload = function () {
-  document.getElementById("fileInput").value = "";
-  fetch("unlink.php", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: "stringData=" + encodeURIComponent(inputFile),
-  })
-    .then((response) => {
-      console.log(response.text());
-      return response.text();
-    })
-    .then((data) => {
-      console.log("Old files removed");
-    })
-    .catch((error) => {
-      console.log(error);
-    });
-  sessionStorage.removeItem("inputFile");
-};
+// Removing files on unloading
+
+window.addEventListener("beforeunload", (event) => {
+  const data = new FormData();
+  data.append("filename", inputFile);
+  navigator.sendBeacon("delete_file.php", data);
+});
 
 // Input Validation
 document
   .getElementById("fileInput")
-  .addEventListener("change", validateFileInput);
+  .addEventListener("change", function (event) {
+    validateFileInput(event);
+  });
 
-function validateFileInput() {
+function validateFileInput(event) {
   const fileInput = document.getElementById("fileInput");
   const errorDiv = document.getElementById("error-container");
-  //   console.log(fileInput.files);
+
   const allowedTypes = "application/json";
   //   validation //
   if (fileInput.files.length === 0) {
@@ -93,7 +78,7 @@ function validateFileInput() {
     reader.onload = (event) => {
       try {
         const data = JSON.parse(event.target.result);
-        console.log(data);
+        // console.log(data);
 
         const isValid = validate(data); // Validate data against schema
 
@@ -113,7 +98,7 @@ function validateFileInput() {
   }
 }
 
-// Document Upload on server
+// File Upload on server
 document.getElementById("submit").addEventListener("click", function (event) {
   event.preventDefault();
 
@@ -121,7 +106,6 @@ document.getElementById("submit").addEventListener("click", function (event) {
   if (fileInput.files.length !== 0) {
     const formData = new FormData();
     formData.append("file", fileInput.files[0]);
-    // console.log(formData);
 
     fetch("upload.php", {
       method: "POST",
@@ -131,7 +115,7 @@ document.getElementById("submit").addEventListener("click", function (event) {
         return response.text();
       })
       .then((fileName) => {
-        sessionStorage.setItem("inputFile", fileName);
+        inputFile = fileName;
         Swal.fire({
           title: "File Uploaded Successfully",
           icon: "success",
@@ -260,13 +244,11 @@ document.getElementById("quizLoad").addEventListener("click", function () {
   // Globle Variables Declaration//
 
   let arr = [];
-  let inputFile;
+
   // ====================//
 
   // Load file option into select box
-  console.log(sessionStorage);
-  if (sessionStorage.length) {
-    inputFile = sessionStorage.getItem("inputFile");
+  if (inputFile) {
     let newSelectBox = document.createElement("option");
     newSelectBox.setAttribute("value", "6");
     newSelectBox.innerHTML = "Custom Quiz";
@@ -312,7 +294,6 @@ document.getElementById("quizLoad").addEventListener("click", function () {
   function StartQuiz(target) {
     document.getElementById("exampleSelect").setAttribute("disabled", "true");
     let level = selectDifficulty(target.value);
-    console.log(level);
 
     fetch(`./quiz-files/${level}`)
       .then((response) => {
@@ -333,7 +314,6 @@ document.getElementById("quizLoad").addEventListener("click", function () {
   function GetData(data) {
     let index = 0;
     arr.length = data.length;
-    // console.log(arr.length);
 
     next.addEventListener("click", () => {
       document.getElementById("nextBtn").innerHTML = "Skip";
@@ -380,7 +360,7 @@ document.getElementById("quizLoad").addEventListener("click", function () {
       optionBtn[2].textContent = option[2];
       optionBtn[3].textContent = option[3];
 
-      console.log(arr[index]);
+      // console.log(arr[index]);
 
       if (arr[index] !== undefined) {
         if (arr[index].result === true) {
@@ -416,7 +396,6 @@ document.getElementById("quizLoad").addEventListener("click", function () {
           if (selectedText === correctText) {
             event.target.classList.add("btn-success");
             trueArrayResult(index, selectedText);
-            // console.log(arr.length);
           } else if (selectedText !== correctText) {
             event.target.classList.add("btn-danger");
             falseArrayResult(index, selectedText);
