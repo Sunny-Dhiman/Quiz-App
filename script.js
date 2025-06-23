@@ -58,6 +58,7 @@ window.onload = function () {
     .catch((error) => {
       console.log(error);
     });
+  sessionStorage.removeItem("inputFile");
 };
 
 // Input Validation
